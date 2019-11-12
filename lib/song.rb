@@ -53,6 +53,10 @@ class Song
     song.artist_name = artist
     return song
   end
+  
+  def self.create_from_filename(file)
+    self.new_from_filename(file)
+  end
 end
 
 
