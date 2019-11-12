@@ -44,6 +44,9 @@ class Song
   def self.alphabetical
     return self.all.sort_by { |song| song.name }
   end
+  
+  def self.new_from_filename(file)
+    parse = file.partition('-')
 end
 
 
