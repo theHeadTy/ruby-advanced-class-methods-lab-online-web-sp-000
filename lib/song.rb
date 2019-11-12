@@ -34,3 +34,5 @@ end
 
 
 Song.create
+
+Song.new_by_name('Blank Space')
